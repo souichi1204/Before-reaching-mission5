@@ -1,0 +1,18 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>入力フォーム</title>
+</head>
+<body>
+	<form action=""　 method="POST">
+	<p><input type="text" name="com" ><p><!--文字を入力させる-->
+	<input type="submit" value="コメント"><!--inputの型指定-->
+	
+	</form>
+<?php
+ echo $_POST["com"]."を受け付けました";//入力フォームから送信されたデータに付与
+?>
+</body>
+</html>
